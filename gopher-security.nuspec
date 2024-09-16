@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>gopher.security.app</id>
+    <version>0.0.1</version>
+    <title>Gopher Security</title>
+    <authors>Gopher Security, Inc.</authors>
+    <owners>Divyansh Ingle</owners>
+    <description>Zero-trust Authorization as a Service</description>
+    <tags>msi install s3</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyinstall.ps1" target="tools\" />
+  </files>
+</package>
